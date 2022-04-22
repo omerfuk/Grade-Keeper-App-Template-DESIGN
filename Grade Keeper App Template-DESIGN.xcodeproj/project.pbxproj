@@ -16,6 +16,10 @@
 		DE3D2EFF28115BFC009F5EE4 /* Grade_Keeper_App_Template_DESIGNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2EFE28115BFC009F5EE4 /* Grade_Keeper_App_Template_DESIGNTests.swift */; };
 		DE3D2F0928115BFC009F5EE4 /* Grade_Keeper_App_Template_DESIGNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2F0828115BFC009F5EE4 /* Grade_Keeper_App_Template_DESIGNUITests.swift */; };
 		DE3D2F0B28115BFC009F5EE4 /* Grade_Keeper_App_Template_DESIGNUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2F0A28115BFC009F5EE4 /* Grade_Keeper_App_Template_DESIGNUITestsLaunchTests.swift */; };
+		DE3D2F1828115C97009F5EE4 /* NotHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2F1728115C97009F5EE4 /* NotHucreTableViewCell.swift */; };
+		DE3D2F1A28115DD3009F5EE4 /* NotEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2F1928115DD2009F5EE4 /* NotEkleViewController.swift */; };
+		DE3D2F1C28115DEC009F5EE4 /* NotDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2F1B28115DEC009F5EE4 /* NotDetayViewController.swift */; };
+		DE3D2F1E2811604D009F5EE4 /* Notlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D2F1D2811604D009F5EE4 /* Notlar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		DE3D2F0428115BFC009F5EE4 /* Grade Keeper App Template-DESIGNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grade Keeper App Template-DESIGNUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3D2F0828115BFC009F5EE4 /* Grade_Keeper_App_Template_DESIGNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade_Keeper_App_Template_DESIGNUITests.swift; sourceTree = "<group>"; };
 		DE3D2F0A28115BFC009F5EE4 /* Grade_Keeper_App_Template_DESIGNUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade_Keeper_App_Template_DESIGNUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE3D2F1728115C97009F5EE4 /* NotHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotHucreTableViewCell.swift; sourceTree = "<group>"; };
+		DE3D2F1928115DD2009F5EE4 /* NotEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotEkleViewController.swift; sourceTree = "<group>"; };
+		DE3D2F1B28115DEC009F5EE4 /* NotDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotDetayViewController.swift; sourceTree = "<group>"; };
+		DE3D2F1D2811604D009F5EE4 /* Notlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +110,14 @@
 				DE3D2EE728115BF9009F5EE4 /* AppDelegate.swift */,
 				DE3D2EE928115BF9009F5EE4 /* SceneDelegate.swift */,
 				DE3D2EEB28115BF9009F5EE4 /* ViewController.swift */,
+				DE3D2F1928115DD2009F5EE4 /* NotEkleViewController.swift */,
+				DE3D2F1B28115DEC009F5EE4 /* NotDetayViewController.swift */,
+				DE3D2F1728115C97009F5EE4 /* NotHucreTableViewCell.swift */,
 				DE3D2EED28115BF9009F5EE4 /* Main.storyboard */,
 				DE3D2EF028115BFC009F5EE4 /* Assets.xcassets */,
 				DE3D2EF228115BFC009F5EE4 /* LaunchScreen.storyboard */,
 				DE3D2EF528115BFC009F5EE4 /* Info.plist */,
+				DE3D2F1D2811604D009F5EE4 /* Notlar.swift */,
 			);
 			path = "Grade Keeper App Template-DESIGN";
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE3D2EEC28115BF9009F5EE4 /* ViewController.swift in Sources */,
+				DE3D2F1E2811604D009F5EE4 /* Notlar.swift in Sources */,
+				DE3D2F1A28115DD3009F5EE4 /* NotEkleViewController.swift in Sources */,
+				DE3D2F1828115C97009F5EE4 /* NotHucreTableViewCell.swift in Sources */,
 				DE3D2EE828115BF9009F5EE4 /* AppDelegate.swift in Sources */,
+				DE3D2F1C28115DEC009F5EE4 /* NotDetayViewController.swift in Sources */,
 				DE3D2EEA28115BF9009F5EE4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
